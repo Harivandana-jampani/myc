@@ -1,20 +1,20 @@
-/*   *
-    * * 
-   * * * 
-  * * * * 
- * * * * * 
+/*   1
+    2 2 
+   3 3 3 
+  4 4 4 4 
+ 5 5 5 5 5 
 */
 #include <stdio.h>
 
 int main() {
-int i,j,k;
+int i,j,k,c=1;
 for(i=1;i<=5;i++)
 {
     for(k=5;k>=i;k--)
         printf(" ");
     for(j=1;j<=i;j++)
     {
-        printf("* ");
+        printf("%d ",i);
     }
         printf("\n");
     
